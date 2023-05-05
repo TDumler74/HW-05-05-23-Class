@@ -17,18 +17,12 @@ public class Main {
     Food pizza = new Food("Pizza Salami");
     pizza.eat();
 
-
-
-
-    Drink drink =new Drink("Fanta");
-    System.out.println( drink.getName());
+    Drink drink = new Drink("Fanta");
+    System.out.println(drink.getName());
     drink.open(true);
-
-
-
-
   }
-
-  //вы сегодня уже ели Pizza Salami
-  //пшш : ваш напиток Fanta газированый
+//вы сегодня уже ели Pizza Salami
+//
+//Fanta
+//пшш : ваш напиток Fanta газированный
 }

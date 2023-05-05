@@ -12,7 +12,7 @@ public class Drink extends Food {
   }
   public void open(boolean sparkling){
     if (sparkling){
-      System.out.println("пшш :" +" ваш напиток "+name+" газированый");
+      System.out.println("пшш :" +" ваш напиток "+name+" газированный");
     }else {
       System.out.println("скр  - Напиток совсем без газировки ");
     }
