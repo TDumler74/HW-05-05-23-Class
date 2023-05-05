@@ -17,8 +17,15 @@ public class Main {
     Food pizza = new Food("Pizza Salami");
     pizza.eat();
 
-    Drink drink =new Drink("Fanta",true);
+
+
+
+    Drink drink =new Drink("Fanta");
+    System.out.println( drink.getName());
     drink.open(true);
+
+
+
 
   }
 

@@ -10,6 +10,6 @@ public class Food {
     this.name = name;
   }
   public void eat(){
-    System.out.println("вы сегодня уже ели "+name);
+    System.out.printf("вы сегодня уже ели "+name+"%n%n");
   }
 }

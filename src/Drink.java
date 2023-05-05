@@ -7,14 +7,15 @@ public class Drink extends Food {
   //для негазированного - "скр"
 
   boolean sparkling;
-  public Drink(String name,boolean sparkling) {
+  public Drink(String name) {
     super(name);
   }
   public void open(boolean sparkling){
     if (sparkling){
       System.out.println("пшш :" +" ваш напиток "+name+" газированый");
     }else {
-      System.out.println("скр  - Напиток совсем без газировки");
+      System.out.println("скр  - Напиток совсем без газировки ");
     }
+
   }
 }
